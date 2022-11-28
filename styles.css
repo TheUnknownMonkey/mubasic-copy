@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+
+}
+.main-left{
+    width: 50vw;
+    background-color: #fac670;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    flex-grow:3;
+}
+.hero-text{
+    font-size: 4rem;
+    width: 28vw;
+    flex-grow: 5;
+}
+.orange{
+    color: #f37926;
+}
+.exsplination{
+    width: 24vw;
+    flex-grow: 1;
+}
+
+.main-right{
+    background-color: #1b1a19;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.keyboard{
+    width: fit-content;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vh;
+ 
+
+}
+
+.w-key{
+    width: 45vw;
+    height: 25%;
+    background-color: aliceblue;
+    border-radius: 0.3vw 0 0 0.3vw;
+    z-index: 1;
+}
+.b-key{
+    height: 12%;
+    width: 30vw;
+    position: absolute;
+    background-color: #1b1a19;
+    right: 0;
+    z-index: 2;
+    border-radius: 0.3vw 0 0 0.3vw;
+}
+
+.u{
+    top: 52%;
+}
+
+.s{
+    top:20%
+}
